@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <!-- Table Tag : (Block Tag)-->
+    <!-- Table แบบที่ 1 (แต่ละ cell ใน Table  มีขนาดเท่ากัน)-->
+     <br><br><br>
+    <table border="1" width="500px">
+        <tr>
+        <td>AAA</td>
+        <td>BBB</td>
+        <td>CCC</td>
+        <td>DDD</td>
+    </tr>
+
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+    </tr>
+    <tr>
+        <td>กกก</td>
+        <td>ขขข</td>
+        <td>คคค</td>
+        <td>งงง</td>
+    </tr>
+    </table>
+    <br><br><br>
+    <!-- Teble แบบที่ 2 (แต่ละ cell ใน Table  มีขนาดไม่เท่ากัน)-->
+    <table border="1" width="500px" style="text-align: center;">
+        <tr>
+            <td colspan="2">A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>        
+        </tr>
+        <tr>
+            <td>E</td>
+            <td colspan="2" rowspan="2">F</td>
+            <td colspan="2">G</td>
+        </tr>
+        <tr>
+            <td>H</td>
+            <td rowspan="2">I</td>
+            <td>J</td>
+        </tr>
+        <tr>
+            <td colspan="2">K</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+    </table>
+    <br><br><br>
+        <!-- Table แบบที่ 3 แบบมีการกำหนดหัวตาราง-->
+        <!-- หัวตารางแนวตั้ง-->
+        <table border="1" width="500px" style="text-align: center;">
+            <tr>
+                <th>เลขที่</th>
+                <th>ชื่อ-นามสกุล</th>
+                <th>อายุ</th>
+                <th>สาขา</th>
+            </tr>
+            <tr>
+                <td>AAA</td>
+                <td>BBB</td>
+                <td>CCC</td>
+                <td>DDD</td>
+            </tr>
+            <tr>
+                <td>AAA</td>
+                <td>BBB</td>
+                <td>CCC</td>
+                <td>DDD</td>
+            </tr>
+            <tr>
+                <td>AAA</td>                
+                <td>BBB</td>
+                <td>CCC</td>
+                <td>DDD</td>
+            </tr>
+        </table>
+            <br><br><br>
+        <!-- หัวตารางแนวนอน--> 
+         <table border="1" width="500px" style="text-align: center;">
+            <tr>
+                <th>กรุงเทพ</th>
+                <td>บางแค</td>
+                <td>บางบอน</td>
+            </tr>
+            <tr>
+                <th>ราชบุรี</th>
+                <td>บ้านโป้ง</td>
+                <td>โพธาราม</td>
+            </tr>
+            <tr>
+                <th>กาญจนบุรี</th>
+                <td>ท่าม่วง</td>
+                <td>บ่อพลอย</td>
+            </tr>
+         </table> 
+
+         <br><br><br>
+         <!-- Table แบบที่ 4  แบบมีการแบ่งส่วนต่างๆของตาราง -->
+         <table border="1" width="500px" style="text-align: center;">
+            <caption style="padding-bottom: 15px">รายการซื้อสินค้า</caption>
+            <thead>
+                <th>No</th>
+                <th>รายการ</th>
+                <th>ราคา</th>
+            </thead>
+            <body>
+                <tr>
+                    <td style="text-align: center;">1</td>
+                    <td>กาแฟ</td>
+                    <td style="text-align: right; padding-right: 30px">30</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">2</td>
+                    <td>ชา</td>
+                    <td style="text-align: right; padding-right: 30px">30</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">3</td>
+                    <td>นม</td>
+                    <td style="text-align: right; padding-right: 30px">50</td>
+                </tr>
+            </body> 
+            <tfoot>
+                <tr>
+                    <th colspan="2" style="text-align: center;padding-right: 30px">รวมเงิน</th>
+                    <td style="text-align: right; padding-right: 30px">120</td>
+                </tr>
+            </tfoot>        
+        </table>
+         <br><br><br><br><br>
+</body>
+</html>
